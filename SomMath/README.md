@@ -26,7 +26,7 @@
   
 ## Ekran Görüntüsü
 
-https://prnt.sc/JaArB--HV_dl
+  ![sommath](https://github.com/Wixobb/Python-Denemeleri/assets/62648552/7975b4d5-2763-444d-ac08-7f5a70f746df)
 
   
 ## Kullanmak İçin
@@ -35,5 +35,3 @@ https://prnt.sc/JaArB--HV_dl
 
 - EXE'yi çalıştırın.
 
-
-  
