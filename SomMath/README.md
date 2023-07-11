@@ -1,5 +1,5 @@
 
-# SomMath
+# SomMath 🔢
 
 İstediğiniz sayıyı girerek hızlı bir şekilde:
 
