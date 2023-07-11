@@ -24,9 +24,9 @@
 - Daha fazla özellik (üçgen alanı, denklemler, kesir işlemleri vb.)
 
   
-## Ekran Görüntüleri
+## Ekran Görüntüsü
 
-![Uygulama Ekran Görüntüsü](https://prnt.sc/JaArB--HV_dl)
+https://prnt.sc/JaArB--HV_dl
 
   
 ## Kullanmak İçin
