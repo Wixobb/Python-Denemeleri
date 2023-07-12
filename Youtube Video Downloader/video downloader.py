@@ -1,29 +1,28 @@
-import requests
-from bs4 import BeautifulSoup
+from pytube import YouTube
 import os
 
-def download_video(url):
-    # url alıyoruz.
-    response = requests.get(url)
-    html = response.text
-    # HTML ayrıştırıyoruz
-    soup = BeautifulSoup(html, "html.parser")
-    # Video başlığını alıyoruz.
-    title = soup.find("meta", property="og:title")["content"]
-    # Videonun url'sini buluyor.
-    video_url = soup.find("meta", property="og:video:url")["content"]
-    # Video dosyayı çağırıyoruz.
-    response = requests.get(video_url, stream=True)
-    # Masaüstü yolunu alıyor.
-    desktop_path = os.path.join(os.path.join(os.environ['USERPROFILE']), 'Desktop')
-    # Videoya tam path oluştur.
-    file_path = os.path.join(desktop_path, title + ".mp4")
-    with open(file_path, "wb") as file:
-        for chunk in response.iter_content(chunk_size=1024):
-            if chunk:
-                file.write(chunk)
-    print(f"Video {title} indirme işlemi başarıyla tamamlandı.")
+def video_downloader(video_url):
+    my_video = YouTube(video_url)
+    my_video.streams.filter(res=resolution).first().download() # şurayı yazana kadar alnımdan sular aktı
+    return my_video.title
 
-while True: # sonsuz döngüye soktum ki arka arkaya video indirmek için tekrar tekrar çalıştırmanıza gerek olmasın.
-    link = input("Videonun URL'sini giriniz: ")
-    download_video(link)
+# masaüstüne kayıt
+desktop_path = os.path.join(os.path.join(os.environ['USERPROFILE']), 'Desktop')
+
+# sonsuz döngü
+while True:
+    try:
+        # userdan url alma
+        video_url = input('URL giriniz:')
+        if not video_url:
+            break
+        resolution = input("Çözünürlük giriniz: ")
+        # çözünürlük ayarı
+        if not resolution:
+            resolution = "Çözünürlüğünüz"
+        print(f'Video İndiriliyor....')
+        video = video_downloader(video_url)
+        print(f'"{video}" videosu indirildi!')
+    # hata mesajı
+    except Exception as e:
+        print(f'Video indirilemedi\nSebepleri şunlar olabilir\n->İnternet bağlantısı yok.\n->Kaldırılmış video\n{e}')
