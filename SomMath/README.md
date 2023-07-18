@@ -31,5 +31,6 @@
   
 ## Kullanmak İçin
 
-- Direkt bütün repoyu indirmek yerine bu linkten sadece SomMath Exe dosyasını indirebilirsiniz : https://drive.google.com/file/d/1t8RZbCtAfpMJBAHRsCMYVE8NGgMCKOus/view?usp=sharing
+- Direkt bütün repoyu indirmek yerine bu linkten sadece SomMath Exe dosyasını indirebilirsiniz :
+- https://drive.google.com/file/d/1u-Vn1H3m_BkhTo4J9QmyvQPKvqBpwJuX/view?usp=sharing
 
