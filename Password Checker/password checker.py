@@ -4,7 +4,7 @@ while (True):
     password = input("Parolanızı giriniz: ") #input
 
     # burada çok yaygın şifreler ile aynı mı diye bakıyoruz.
-    if password in ["qwerty", "111111", "şifre", "password", "12345678", "123456"]:
+    if password in ["qwerty", "111111", "şifre", "password", "123456789", "123456", "sifre", "guest", "abc123", "Password1"]:
         print("Parolanız çok yaygın veya sıralı rakamlar içeriyor. Değiştirmenizi şiddetle tavsiye ederim.")
 
     else:
