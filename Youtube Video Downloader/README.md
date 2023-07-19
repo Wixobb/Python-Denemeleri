@@ -6,3 +6,8 @@ URL girerek istediğiniz youtube videosunu indirebileceğiniz bir uygulama
 
 
 - UI yapmayı düşünüyorum.
+
+
+# EXE İndirme
+
+Sadece EXE dosyasını indirmek için: https://drive.google.com/file/d/1t8RZbCtAfpMJBAHRsCMYVE8NGgMCKOus/view?usp=sharing
