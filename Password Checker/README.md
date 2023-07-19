@@ -10,3 +10,10 @@
 1-) Şifrelerinizi encrypt edip kaydeden bir uygulamaya çevirmeyi planlıyorum.
 
 2-) Kullanımı kolaylaştırmak için UI.
+
+
+# EXE İndirme
+
+- Sadece EXE dosyasını indirmek için:
+
+https://drive.google.com/file/d/1_GyEAkeoFMFpglTZRg8uLZZvs7_NGz7d/view?usp=sharing
