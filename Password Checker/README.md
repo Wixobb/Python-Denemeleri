@@ -8,4 +8,5 @@
 # Eklenecekler
 
 1-) Şifrelerinizi encrypt edip kaydeden bir uygulamaya çevirmeyi planlıyorum.
+
 2-) Kullanımı kolaylaştırmak için UI.
