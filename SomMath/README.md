@@ -21,7 +21,7 @@
 
 - Tatlı bir UI
 - SymPy ve Matplotlib kullanarak daha fazla işlem olanağı ve grafik desteği
-- Daha fazla özellik (üçgen alanı, denklemler, kesir işlemleri vb.)
+- Daha fazla özellik (denklemler, kesir işlemleri vb.)
 
   
 ## Ekran Görüntüsü
@@ -33,5 +33,5 @@
 ## Kullanmak İçin
 
 - Direkt bütün repoyu indirmek yerine bu linkten sadece SomMath Exe dosyasını indirebilirsiniz :
-- https://drive.google.com/file/d/1u-Vn1H3m_BkhTo4J9QmyvQPKvqBpwJuX/view?usp=sharing
+- https://drive.google.com/file/d/1_2oS4BGMhLyCblcprybsdAblezYSYC6C/view?usp=sharing
 
