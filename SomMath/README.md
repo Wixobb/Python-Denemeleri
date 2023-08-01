@@ -26,7 +26,7 @@
   
 ## Ekran Görüntüsü
 
-  ![sommath]![image](https://github.com/Wixobb/Python-Denemeleri/assets/62648552/3422f5c5-24f5-452e-9e29-2f060b978678)
+  ![sommath](https://github.com/Wixobb/Python-Denemeleri/assets/62648552/3422f5c5-24f5-452e-9e29-2f060b978678)
 
 
   
