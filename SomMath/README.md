@@ -13,7 +13,9 @@
 
 5- Dairenin alan ve çevresini hesaplayabileceğiniz
 
-6- Sin ve Cos açılarının değerleri ile bunları birbirine dönüştürebileceğiniz basit bir uygulama.
+6- Sin ve Cos açılarının değerleri ile bunları birbirine dönüştürebileceğiniz 
+
+7- Bir sayının asal olup olmadığını görebileceğiniz basit bir uygulama.
 
 
 
