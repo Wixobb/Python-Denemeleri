@@ -14,7 +14,8 @@ Asal sayılarla ilgili işlemler yapabildiğiniz bir uygulama.
   
 ## Ekran Görüntüleri
 
-![PrimeCalc]
+![PrimeCalc](https://github.com/Wixobb/Python-Denemeleri/assets/62648552/e970dafc-0cfc-4c02-b0c8-df32ec18125c)
+
 
   
 ## Kullanmak İçin
